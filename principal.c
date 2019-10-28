@@ -31,6 +31,10 @@ int main() {
 	for (int i = 0; i < NUM_HILOS; i++)
 			pthread_join(hilos[i], NULL);
 
+	std::cout << "no entiendo" << std::endl;
+
+	return 0;
+
 }
 
 
